@@ -114,10 +114,10 @@ class TweetWidget extends StatelessWidget {
             backgroundColor: determineAvatarColor(),
             child: Text(userIcon), // Make the text transparent as we have an image.
           ),
-          const SizedBox(width: 8),
+          const SizedBox(width: 10),
           Expanded(
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              // crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
                   children: [
